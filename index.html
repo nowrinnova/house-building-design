@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bike-zone-project</title>
+  <!-- daisy UI config -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- tailwind CSS config -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'btn_regular': 'rgba(171, 239, 95, 0.5)',
+            'bike-primary-bg': 'rgba(231, 111, 81, 0.1)',
+            'dis-color': '#494949',
+
+          }
+        }
+      }
+    }
+  </script>
+  <!-- font-awesome config -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <main>
+    <!-- navbar section -->
+    <header class="md:container mx-auto lg:p-16">
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+
+            <i class="fa-solid fa-arrow-right -rotate-45 bg-green-500  rounded-full p-1"></i>
+            <a class="btn btn-ghost text-xl">
+              daisyUI</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li class="font-bold"><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+            <div class="hidden lg:flex items-center space-x-2">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-cart-shopping  rounded-full"></i>
+              <a class=" btn  bg-btn_regular rounded-full px-4 ">Book Consult <i
+                  class="fa-solid fa-arrow-right -rotate-45 bg-black text-white  rounded-full p-1"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+        </div>
+      </nav>
+    </header>
+    <!-- banner section  -->
+    <div class="md:container lg:container mx-auto m-5 lg:py-16 text-center space-y-3">
+      <img src="./image/banner.png" alt="" class="mx-auto mb-9">
+      <h1 class="max-w-xl text-center mx-auto font-bold text-xl lg:text-4xl px-7">A barn house of this design has a
+        striking
+        appearance</h1>
+      <p class="max-w-2xl mx-auto lg:px-10 py-4 text-dis-color">The barn house captivates with its blend of rustic charm
+        and modern
+        sophistication,
+        featuring
+        weathered wood,
+        sleek metal accents, and large windows that flood the space with natural light.</p>
+      <a class=" btn  bg-btn_regular rounded-full px-4 ">View details <i
+          class="fa-solid fa-arrow-right -rotate-45   p-1"></i></a>
+    </div>
+
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
