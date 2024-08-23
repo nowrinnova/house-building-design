@@ -35,7 +35,7 @@
 
   <main class="max-w-screen-lg mx-auto">
     <!-- navbar section -->
-    <header class="md:container mx-auto lg:p-16">
+    <header class="md:container mx-auto lg:p-16 ">
       <nav>
         <div class="navbar bg-base-100">
           <div class="navbar-start">
@@ -220,20 +220,12 @@
       <p class="w-3/6 mx-auto">The barn house captivates with its blend of rustic charm and
         modern sophistication, featuring weathered wood, sleek metal accents.</p>
       <div class="flex mx-auto ">
-        <div class="bg-white rounded-full p-2 m-2 md:p-4 w-1/2 ">
-          <input type="text" placeholder="First Name*">
-        </div>
-        <div class="bg-white rounded-full p-2 m-2 md:p-4 w-1/2 ">
-          <input type="text" placeholder="Last Name*">
-        </div>
+        <input type="text" placeholder="First Name*" class="bg-white rounded-full p-1 mx-2 md:p-4 w-1/2">
+        <input type="text" placeholder="Last Name*" class="bg-white rounded-full p-1 mx-2  md:p-4 w-1/2 ">
       </div>
-      <div class="flex">
-        <div class="bg-white rounded-full p-2 m-2 md:p-4  w-1/2">
-          <input type="text" placeholder="Phone Number*">
-        </div>
-        <div class="bg-white rounded-full p-2 m-2 md:p-4  w-1/2 ">
-          <input type="text" placeholder="Email Number*">
-        </div>
+      <div class="flex mx-auto ">
+        <input type="text" placeholder="Phone Number*" class="bg-white rounded-full p-1 mx-2 md:p-4 w-1/2">
+        <input type="text" placeholder="Email Number*" class="bg-white rounded-full p-1 mx-2  md:p-4 w-1/2 ">
       </div>
       <div class="w-[95%] mx-auto  bg-white  text-start rounded-lg  h-[200px]">
         <textarea name="" id="" placeholder="Write Your Massage" class="p-4"></textarea>
@@ -242,8 +234,19 @@
           <i class="fa-solid fa-arrow-right p-1 -rotate-45 bg-black text-white rounded-full ml-1"></i></a></button>
     </div>
   </main>
-  <footer>
-
+  <footer class="bg-black text-white">
+    <div class="md:container  mx-auto text-center space-y-3 py-10 ">
+      <h1 class="text-center text-3xl font-bold  pb-2">Rinterio</h1>
+      <p class="w-3/4 mx-auto text-dis-color">The barn house captivates with its blend of rustic charm and
+        modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      <ul class="md:flex md:justify-around">
+        <li class="text-slate-200">Home</li>
+        <li class="text-gray-200">Services</li>
+        <li class="text-gray-200">Portfolio</li>
+        <li class="text-gray-200">Blogs</li>
+        <li class="text-gray-200">Contact Us</li>
+      </ul>
+    </div>
   </footer>
 </body>
 
